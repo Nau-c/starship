@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.17.0](https://github.com/starship/starship/compare/v1.16.0...v1.17.0) (2023-09-16)
+
+
+### Features
+
+* **fossil_metrics:** add fossil_metrics module ([#4874](https://github.com/starship/starship/issues/4874)) ([e867cda](https://github.com/starship/starship/commit/e867cda1eb90ba452768bd2e0738afc2fd0db613))
+* **hostname:** add detect_env_vars as option ([#5196](https://github.com/starship/starship/issues/5196)) ([43b2d42](https://github.com/starship/starship/commit/43b2d42cd526e34c5f0290e7409fbd6d3a54e908))
+* **kubernetes:** Add styling based on current context ([#4550](https://github.com/starship/starship/issues/4550)) ([6b444e0](https://github.com/starship/starship/commit/6b444e05c688f9b871d0fe4624cd5559eba1f95c))
+
+
+### Bug Fixes
+
+* **git:** prevent `core.fsmonitor` from executing external commands ([#3981](https://github.com/starship/starship/issues/3981)) ([03278e4](https://github.com/starship/starship/commit/03278e4de4f540cbd0e346e9df878c7e6798d757))
+
+
+### Performance Improvements
+
+* Skip unnecessary indirection in starship init zsh ([#5322](https://github.com/starship/starship/issues/5322)) ([5ca8daa](https://github.com/starship/starship/commit/5ca8daacd4ce936f97170f814a780b34bfaa486e))
+
 ## [1.16.0](https://github.com/starship/starship/compare/v1.15.0...v1.16.0) (2023-07-30)
 
 
